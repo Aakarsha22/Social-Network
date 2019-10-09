@@ -1,32 +1,35 @@
 {
-  "name": "react-front",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "lodash": "^4.17.11",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-google-login": "^5.0.2",
-    "react-google-recaptcha": "^1.0.5",
-    "react-recaptcha": "^2.3.10",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.5",
-    "react-youtube": "^7.9.0",
-    "youtube-api-v3-search": "^1.2.1"
-  },
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "A Node Js API",
+  "main": "app.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node index.js",
+    "dev": "nodemon app.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "keywords": [
+    "node",
+    "api"
+  ],
+  "author": "Ryan Dhungel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "express-validator": "^5.3.1",
+    "formidable": "^1.2.1",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.3",
+    "mongoose-mongodb-errors": "0.0.2",
+    "morgan": "^1.9.1",
+    "nodemailer": "^5.1.1",
+    "nodemon": "^1.18.9",
+    "uuid": "^3.3.2"
+  }
 }
